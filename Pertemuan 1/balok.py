@@ -1,6 +1,10 @@
 panjang = 10
 lebar = 20
 tinggi = 5
-luas = 2 * (panjang*lebar + lebar*tinggi + panjang*tinggi)
 
-print(' panjang = ',panjang,' \n lebar = ',lebar,' \n tinggi = ',tinggi,' \n luas dari balok di atas adalah = ', luas)
+RLuas = 2 * (panjang*lebar + panjang*tinggi + lebar*tinggi)
+Rvolume = panjang * lebar * tinggi
+
+print('hasil dari mencari luas balok dengan\npanjang : ',panjang,'\nlebar : ',lebar,'\ntinggi : ',tinggi,'\nadalah = ', RLuas )
+
+print('\nhasil dari mencari volume balok dengan\npanjang : ',panjang,'\nlebar : ',lebar,'\ntinggi : ',tinggi,'\nadalah = ', Rvolume )
