@@ -1,0 +1,15 @@
+alas = 8
+tinggi_segitiga = 6
+tinggi_limas = 10
+
+# menghitung luas permukaan limas segitiga
+luas_alas = 0.5 * alas * tinggi_segitiga
+luas_selubung = 3 * (0.5 * alas * tinggi_limas)  # Ada 3 sisi segitiga tegak pada limas segitiga
+luas_permukaan = luas_alas + luas_selubung
+
+# menghitung volume limas segitiga
+volume = (1/3) * 0.5 * alas * tinggi_segitiga * tinggi_limas
+
+print('hasil dari mencari luas limas segitiga dengan\nalas : ',alas,'\ntinggi segitiga : ',tinggi_segitiga,'\ntinggi limas : ',tinggi_limas,'\nadalah = ', luas_permukaan )
+
+print('\nhasil dari mencari volume limas segitiga dengan\nalas : ',alas,'\ntinggi segitiga : ',tinggi_segitiga,'\ntinggi limas : ',tinggi_limas,'\nadalah = ', volume )
